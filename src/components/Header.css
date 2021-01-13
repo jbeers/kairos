@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    padding: 5px 40px;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba( 0, 0, 0, .5 );
+}
+
+.header a,
+.header a:visited
+{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1.2rem;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+}
+
+.header__menu li {
+    margin-right: 10px;
+}
+
+.header a:hover {
+    color: white;
+}
+
+
+.header > * {
+    margin-right: 30px;
+}
+
+.header > *:last-child {
+    margin-right: 0px;
+}
+
+.header__logo {
+    height: 80px;
+}
+
+
+/**                     **/
+
+
+:root {
+    --blue: #217786;
+    --orange: #c19763;
+    --red: #8f4438;
+    --beige: #cca678;
+    --green: #65684c;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Roboto, Georgia, sans-serif;
+    height: 1500px;
+}
+
+/*
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+linear-gradient( 315deg, var( --orange ) 1000px, rgba( 255, 255, 255, 0) 1001px ),
+
+the below style is looking really good
+
+consider:
+    a green wedge that helps the transition from top to white area?
+    how does this work on text/content pages? -- probably want to create a version that has a central white lane
+linear-gradient( 185deg, rgba( 255, 255, 255, 0) 1200px, rgba( 255, 255, 255, 1) 1201px, rgba( 255, 255, 255, 1) 2000px, var( --red ) 2001px ),
+*/
+
+body {
+    background:
+        linear-gradient( 5deg, var( --red ) 400px, rgba( 255, 255, 255, 0) 401px ),
+        linear-gradient( 185deg, rgba( 255, 255, 255, 0) 1200px, rgba( 255, 255, 255, 1) 1201px ),
+        linear-gradient( 135deg, var( --blue ) 500px, rgba( 255, 255, 255, 0) 501px, rgba( 255, 255, 255, 0) 1000px, var( --orange ) 1001px )
+    ;
+
+}

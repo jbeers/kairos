@@ -1,0 +1,30 @@
+#___gatsby {
+    height: 100%;
+}
+
+#gatsby-focus-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item-row {
+    display: flex;
+}
+
+.item-row > * {
+    margin-right: 10px;
+}
+
+.item-row > *:last-child {
+    margin-right: 0px;
+}
+
+.item-row--no-margin > * {
+    margin-right: 0px;
+}
+
+.flex {
+    flex: 1;
+}

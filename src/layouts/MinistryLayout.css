@@ -1,0 +1,39 @@
+.ministry-page__main-image {
+    float: right;
+    width: 60%;
+    max-height: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ministry-page__content {
+    margin-bottom: 40px;
+}
+
+.ministry-page__gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ministry-page__gallery > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ministry-page__title-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.ministry-page__title {
+    margin: 0px;
+}
+
+.ministry-page__description {
+    font-size: .75rem;
+}

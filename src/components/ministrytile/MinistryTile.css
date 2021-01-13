@@ -1,0 +1,37 @@
+.ministry-tile {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ministry-tile__img-wrapper {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ministry-tile__name {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba( 0, 0, 0, .25 );
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.ministry-tile__img-wrapper:hover .ministry-tile__name {
+    display: none;
+}
+
+.ministry-tile img {
+    width: 100%;
+    height: 100%;
+}
