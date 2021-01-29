@@ -10,9 +10,9 @@ export const Header = () => {
         </Link>
         <span style={{flex: 1}}></span>
         <ul className="header__menu">
-            <li><Link to="/">home</Link></li>
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/contact">contact</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
     </header>
 };

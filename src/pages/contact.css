@@ -1,0 +1,18 @@
+.contact__info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contact__info-group {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 60px;
+}
+
+.contact__map-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
