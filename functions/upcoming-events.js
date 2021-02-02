@@ -13,12 +13,18 @@ function isValidDate( date ){
     return date.getTime() === date.getTime();
 }
 
+function getKey( key ){
+    return /_/.test( key )
+        ? key.replace( /_/g, '\n' )
+        : key;
+}
+
 async function getUpcomingEvents(){
     const doc = new GoogleSpreadsheet('1iE331Dv-jfSXDhN_sigotfsn1ejGRJOc69MHOK6-xWc');
 
     // Initialize Auth - see more available options at https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication
     await doc.useServiceAccountAuth({
-        client_email: GOOGLE_SERVICE_ACCOUNT_EMAIL,
+        client_email: getKey( GOOGLE_SERVICE_ACCOUNT_EMAIL ),
         private_key: GOOGLE_PRIVATE_KEY,
     });
 
