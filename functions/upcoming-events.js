@@ -21,11 +21,10 @@ function getKey( key ){
 
 async function getUpcomingEvents(){
     const doc = new GoogleSpreadsheet('1iE331Dv-jfSXDhN_sigotfsn1ejGRJOc69MHOK6-xWc');
-
     // Initialize Auth - see more available options at https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication
     await doc.useServiceAccountAuth({
-        client_email: getKey( GOOGLE_SERVICE_ACCOUNT_EMAIL ),
-        private_key: GOOGLE_PRIVATE_KEY,
+        client_email: GOOGLE_SERVICE_ACCOUNT_EMAIL,
+        private_key: getKey( GOOGLE_PRIVATE_KEY ),
     });
 
     await doc.loadInfo(); // loads document properties and worksheets
