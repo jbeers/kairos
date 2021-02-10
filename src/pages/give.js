@@ -1,10 +1,26 @@
 import * as React from "react"
+import { Link } from 'gatsby';
 import { PageLayout } from '../layouts';
 
 const IndexPage = () => {
     return <PageLayout>
         <h1>Give</h1>
-        <p>If you would like to give in support to Kairos Church please follow these instructions.</p>
+        <div>
+            <h2>Online</h2>
+            <p>
+                Online giving is handled through Aware 3. You can access our giving page at <Link to="https://metrokc.aware3.net/give/" >https://metrokc.aware3.net/give/</Link>.
+            </p>
+        </div>
+        <div>
+            <h2>By Check</h2>
+            <p>To give by check please make the check out to "Kairos Church KC" and include the purpose of your gift in the memo line. Please mail the check to:</p>
+            <center>
+                Metro Christian Fellowship<br />
+                2217 High Grove Rd<br />
+                Grandview, MO 64030
+            </center>
+
+        </div>
     </PageLayout>
 }
 

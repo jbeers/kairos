@@ -1,3 +1,5 @@
 node_modules/
 .cache/
 public
+run_netlify_dev.sh
+google-sheets-cred.json

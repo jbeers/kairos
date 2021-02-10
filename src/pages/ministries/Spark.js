@@ -18,7 +18,6 @@ const Content = () => {
 		<p>We love watching children learn about God, seeing them engage in worship, and teaching them Biblical foundations.</p>
 
 <p>For more information please contact Jason and Natalia at spark@metro-kc.org</p>
-		
     </>
 }
 // markup
