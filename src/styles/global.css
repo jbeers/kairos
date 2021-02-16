@@ -8,6 +8,11 @@
     flex-direction: column;
 }
 
+@font-face {
+  font-family: AkzidenzGrotesk;
+  src: url(Basic-Commercial-LT-Com-Roman.ttf);
+}
+
 
 .item-row {
     display: flex;
@@ -27,4 +32,25 @@
 
 .flex {
     flex: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.stack > * {
+    margin-bottom: 10px;
+}
+
+.stack > *:last-child {
+    margin-bottom: 0px;
 }

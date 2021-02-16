@@ -1,6 +1,7 @@
 import * as React from "react"
 import { MinistryTile } from '../../components';
-import { BasicLayout } from '../../layouts';
+import { PageLayout } from '../../layouts';
+import './index.css';
 
 
 const spark = 'https://picsum.photos/seed/picsum1/200/300';
@@ -10,10 +11,10 @@ const beacon = 'https://picsum.photos/seed/picsum1/200/300';
 
 // markup
 const MinistriesPage = () => {
-    return <BasicLayout>
-        <div>
+    return <PageLayout>
+        <div className = "ministry_category">
             <h2>Youth Ministry</h2>
-            <div className={'item-row'}>
+            <div className={'item-row space-between'}>
                 <MinistryTile image={spark} name="Spark" >
                     Spark is for youth ages 1-9
                 </MinistryTile>
@@ -27,7 +28,7 @@ const MinistriesPage = () => {
         </div>
         <div>
             <h2>Service Ministries</h2>
-            <div className={'item-row'}>
+            <div className={'item-row space-between'}>
                 <MinistryTile image={spark} name="Prayer">
                     Spark is for youth ages 1-9
                 </MinistryTile>
@@ -41,13 +42,13 @@ const MinistriesPage = () => {
         </div>
         <div>
             <h2>Youth Ministry</h2>
-            <div className={'item-row'}>
+            <div className={'item-row space-between'}>
                 <MinistryTile image={spark} name="Women">
                     Spark is for youth ages 1-9
                 </MinistryTile>
             </div>
         </div>
-    </BasicLayout>
+    </PageLayout>
 }
 
 export default MinistriesPage

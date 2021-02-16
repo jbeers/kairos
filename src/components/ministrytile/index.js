@@ -8,7 +8,7 @@ export const MinistryTile = ({ children, image, name }) => {
         <Link to={'/ministries/' + name}>
             <div className="ministry-tile__img-wrapper">
                 <span className="ministry-tile__name">{name}</span>
-                <img src={image} alt="an image" />
+                <img src={image} alt={name} />
             </div>
             <span>{children}</span>
         </Link>

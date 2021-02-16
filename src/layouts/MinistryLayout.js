@@ -15,7 +15,7 @@ export const MinistryLayout = ({ name, description, content, mainImage, galleryI
         {
             !galleryImages.length ? null
                 : <div className="ministry-page__gallery">
-                    {galleryImages.map(galleryImage => <div><img src={galleryImage} alt='an image' /></div> )}
+                    {galleryImages.map((galleryImage, i) => <div key={i}><img src={galleryImage.src || galleryImage} alt={galleryImage.alt} /></div> )}
                 </div>
         }
     </PageLayout>

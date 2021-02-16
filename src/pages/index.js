@@ -12,12 +12,6 @@ const sliderImages = [
   'https://picsum.photos/seed/picsum5/984/400'
 ];
 
-const blurb = [
-  () => <div><span>Kairos Church</span> is located in south Kansas City. We exist</div>,
-  () => <div>to wholeheartedly pursue deep relationship with God the Father</div>,
-  () => <div>through the Spirit of His Son Jesus Christ and to lift stregthen</div>,
-  () => <div>others as they come into the identiy God has called them to.</div>,
-];
 
 // markup
 const IndexPage = () => {

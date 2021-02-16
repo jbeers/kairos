@@ -1,5 +1,4 @@
 import * as React from "react"
-import { MinistryTile } from '../../components';
 import { MinistryLayout } from '../../layouts';
 
 
