@@ -8,7 +8,7 @@ const beacon = 'https://picsum.photos/seed/picsum2/200/300';
 
 const Content = () => {
     return <>
-        <p>This ministry serves children up to 6th grade and and their families.</p>
+        <p>This ministry serves children aged 10-13 and their families.</p>
 		<p>In Fire, students attend large-group worship with parents then attend a discussion-based class that focuses on reading scripture together.</p>
 		<p>We meet on Sunday mornings with occasional events outside of Sunday morning class </p>
 		<p>To be served by this ministry, arrive during a Sunday morning service. First time families will answer a few questions to ensure we have information pertinent to teaching.</p>
@@ -21,8 +21,8 @@ const Content = () => {
 // markup
 const MinistriesPage = () => {
     return <MinistryLayout
-        name = "Spark"
-        description = "A youth ministry for kids ages 1-9"
+        name = "Fire"
+        description = "A youth ministry for kids ages 10-13"
         content = { <Content /> }
         mainImage = { spark }
         galleryImages = { [ spark, fire, beacon, fire ]}

@@ -15,9 +15,9 @@ export const Footer = () => {
                     <ul className="footer__link-list">
                         <Link className="footer__link" to='/'>Home</Link>
                         <Link className="footer__link" to='/about'>About</Link>
-                        <Link className="footer__link" to='/contact'>Contact</Link>
                         <Link className="footer__link" to='/events'>Upcoming Events</Link>
                         <Link className="footer__link" to='/planningcenter'>Planning Center</Link>
+                        <Link className="footer__link" to='/privacy-policy'>Privacy Policy</Link>
                     </ul>
                 </div>
                 <div className="footer__link-group">
@@ -32,6 +32,7 @@ export const Footer = () => {
                 <div className="footer__link-group">
                     <h3 className="footer__link-list-label">Connect</h3>
                     <ul className="footer__link-list">
+                        <Link className="footer__link" to='/contact'>Contact</Link>
                         <Link className="footer__link" to='/prayer'>Prayer</Link>
                         <Link className="footer__link" to='/media'>Media</Link>
                         <Link className="footer__link" to='/give'>Give</Link>

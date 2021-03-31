@@ -5,15 +5,22 @@ import { Link } from 'gatsby';
 const IndexPage = () => {
     return <PageLayout>
         <h1>Our Media</h1>
-        <div>
-            <h2>Live Stream</h2>
-            <p>You can check out our Sunday morning live-stream at <Link to="https://metro-kc.online.church/" >metro-kc.online.church</Link>.
-            </p>
-        </div>
-        <div>
-            <h2>Vimeo</h2>
-            <p>You can check out our videos on <Link to="https://vimeo.com/metrokc">Vimeo</Link>.</p>
-        </div>
+
+
+        <h3>Video Content</h3>
+        <ul>
+            <li>Live-stream <Link to="https://kairoskc.online.church/" >kairoskc.online.church</Link></li>
+            <li>Vimeo <Link to="https://vimeo.com/kairoskc" >https://vimeo.com/kairoskc</Link></li>
+        </ul>
+
+        <h3>Social Media</h3>
+        <ul>
+            <li>Facebook <Link to="https://facebook.com/kairoskansascity">https://facebook.com/kairoskansascity</Link></li>
+            <li>Spark & Fire <Link to="https://facebook.com/kairoschurchkids">https://facebook.com/kairoschurchkids</Link></li>
+            <li>Beacon 	<Link to="https://facebook.com/beaconyouth">https://facebook.com/beaconyouth</Link></li>
+            <li>Twitter 	<Link to="https://twitter.com/kairoskansascity">https://twitter.com/kairoskansascity</Link></li>
+            <li>Instagram <Link to="https://instagrame.com/kairoskansascity">https://instagrame.com/kairoskansascity</Link></li>
+        </ul>
         
     </PageLayout>
 }
