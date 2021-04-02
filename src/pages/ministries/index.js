@@ -3,7 +3,6 @@ import { MinistryTile } from '../../components';
 import { PageLayout } from '../../layouts';
 import './index.css';
 
-
 const spark = 'https://picsum.photos/seed/picsum1/200/300';
 const fire = 'https://picsum.photos/seed/something/200/300';
 const beacon = 'https://picsum.photos/seed/picsum1/200/300';
@@ -14,7 +13,7 @@ const MinistriesPage = () => {
     return <PageLayout>
         <div className = "ministry_category">
             <h2>Youth/Children</h2>
-            <div className={'item-row space-between'}>
+            <div className={'ministry-category__tiles item-row space-between'}>
                 <MinistryTile image={spark} name="Spark" >
                     Spark is for youth ages 1-9
                 </MinistryTile>
@@ -28,7 +27,7 @@ const MinistriesPage = () => {
         </div>
         <div>
             <h2>Encouragement</h2>
-            <div className={'item-row space-between'}>
+            <div className={'ministry-category__tiles item-row space-between'}>
                 <MinistryTile image={spark} name="Prayer">
                     Send us your prayer requests
                 </MinistryTile>
@@ -42,7 +41,7 @@ const MinistriesPage = () => {
         </div>
         <div>
             <h2>Service</h2>
-            <div className={'item-row space-between'}>
+            <div className={'ministry-category__tiles item-row space-between'}>
                 {/* <MinistryTile image={beacon} name="Hope Rocks">
                     Our food pantry and meal assistance program
                 </MinistryTile> */}

@@ -16,3 +16,17 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and ( max-width: 600px ){
+
+    .contact__info {
+        flex-direction: column;
+    }
+
+    .contact__info-group {
+        box-sizing: border-box;
+        width: auto;
+        padding: 0px;
+    }
+
+}

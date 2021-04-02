@@ -1,0 +1,16 @@
+.ministry-category__tiles {
+
+}
+
+@media only screen and ( max-width: 600px ){
+
+    .ministry-category__tiles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ministry-category__tiles > * {
+        margin-bottom: 20px;
+    }
+
+}

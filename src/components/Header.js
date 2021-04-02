@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../images/horz_logo.png';
 import './Header.css';
 import { Link } from 'gatsby';
@@ -9,6 +9,29 @@ export const Header = () => {
 
     const handleMenuClick = () => setShowMenu( true );
     const handleCloseClick = () => setShowMenu( false );
+
+    const lockScrolling = () => {
+        const html = document.querySelector('html');
+
+        html.style.setProperty('overflow', 'hidden');
+    }
+
+    const unlockScrolling = () => {
+        const html = document.querySelector('html');
+
+        html.style.removeProperty('overflow');
+    }
+
+    useEffect(() => {
+
+        if (!showMenu) {
+            unlockScrolling();
+            return;
+        }
+
+        lockScrolling();
+
+    }, [showMenu])
 
     return <header className="header">
         <Link to ='/'>

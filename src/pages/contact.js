@@ -10,7 +10,7 @@ const IndexPage = () => {
 
             <div className="contact__info-group">
                 <h3>Contact Info</h3>
-                Email: <a href="mailto:admin@metro-kc.org">admin@metro-kc.org</a><br />
+                Email: <a href="mailto:admin@kairos-kc.org">admin@kairos-kc.org</a><br />
                 Phone: (816) 214-4900<br />
                 Hours: 9:00 AM – 2:00 PM Monday – Thursday
             </div>
@@ -21,7 +21,7 @@ const IndexPage = () => {
             </div>
             <div className="contact__info-group">
                 <h3>Address</h3>
-                Metro Christian Fellowship<br />
+                Kairos Church<br />
                 2217 High Grove Rd<br />
                 Grandview, MO 64030
             </div>
