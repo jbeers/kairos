@@ -6,13 +6,13 @@ import './index.css';
 
 import logo from '../images/slider/logo.png';
 
-const sliderImages = [
-  'https://picsum.photos/seed/picsum1/984/400',
-  'https://picsum.photos/seed/something/984/400',
-  'https://picsum.photos/seed/test/984/400',
-  'https://picsum.photos/seed/another/984/400',
-  'https://picsum.photos/seed/picsum5/984/400'
-];
+// const sliderImages = [
+//   'https://picsum.photos/seed/picsum1/984/400',
+//   'https://picsum.photos/seed/something/984/400',
+//   'https://picsum.photos/seed/test/984/400',
+//   'https://picsum.photos/seed/another/984/400',
+//   'https://picsum.photos/seed/picsum5/984/400'
+// ];
 
 
 // markup
