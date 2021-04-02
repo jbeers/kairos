@@ -4,6 +4,8 @@ import { BasicLayout } from '../layouts';
 import { Link } from 'gatsby';
 import './index.css';
 
+import logo from '../images/slider/logo.png';
+
 const sliderImages = [
   'https://picsum.photos/seed/picsum1/984/400',
   'https://picsum.photos/seed/something/984/400',
@@ -17,7 +19,8 @@ const sliderImages = [
 const IndexPage = () => {
   return <BasicLayout>
       <div className ="hero-slider">
-        <Slider images={sliderImages } />
+      <img src={logo} alt="logo" />
+        {/* <Slider images={sliderImages } /> */}
       </div>
       <div className="main-tiles">
         <Link to="/events" className="main-tiles__tile">Upcoming Events</Link>
