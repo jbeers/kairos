@@ -8,6 +8,7 @@ const IndexPage = () => {
         <p>At Kairos we have a dedicated prayer team that sets aside time each week to pray over any requests we receive</p>
         <p>Please fill out the following form in order to submit a prayer request</p>
         <form className='stack' name="prayerRequest" method='POST' data-netlify="true">
+            <input type="hidden" name="form-name" value="prayerRequest" />
             <div className = 'item-row'>
                 <label htmlFor="Name">Name</label>
                 <input id="Name" name="Name" />
