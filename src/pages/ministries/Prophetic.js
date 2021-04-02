@@ -17,8 +17,8 @@ const Content = () => {
 // markup
 const MinistriesPage = () => {
     return <MinistryLayout
-        name = "Spark"
-        description = "A youth ministry for kids ages 1-9"
+        name = "Prophetic"
+        description= "Understanding and responding to the voice of the Lord"
         content = { <Content /> }
         mainImage = { spark }
         galleryImages = { [ spark, fire, beacon, fire ]}
