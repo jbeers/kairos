@@ -26,7 +26,7 @@ export default () => {
             </li>
             <li>
                 <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-            &quot;Our&quot; in this Agreement) refers to Metro Christian Fellowship, 2217 High Grove Rd Grandview,
+            &quot;Our&quot; in this Agreement) refers to Kairos Church, 2217 High Grove Rd Grandview,
             Missouri 64030.</p>
             </li>
             <li>

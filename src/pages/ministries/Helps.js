@@ -15,7 +15,7 @@ const Content = () => {
 		<p>We meet every Sunday morning by 9:30am through 15 minutes after the service.</p>
 		<p>We love working with the leaders, organizing, training, and building relationships.</p>
 		<p>We are open to volunteers!</p>
-		<p>If you are interested in becoming a volunteer please contact Mary Sparling at admin@metro-kc.org.</p>
+		<p>If you are interested in becoming a volunteer please contact Mary Sparling at admin@kairos-kc.org.</p>
 
     </>
 }

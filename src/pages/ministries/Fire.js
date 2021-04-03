@@ -15,7 +15,7 @@ const Content = () => {
 		<p>We are open to volunteers! </p>
 		<p>We require a background check. Once a background check is cleared, we have a few questions to help place you in a class that fits your preferences. We also encourage a shadowing process to allow our volunteers to sample different classrooms.</p>
 		<p>We love watching children learn about God, seeing them engage in worship, and teaching them Biblical foundations.</p>
-		<p>For more information please contact Jason and Natalia at spark@metro-kc.org</p>
+		<p>For more information please contact Jason and Natalia at spark@kairos-kc.org</p>
     </>
 }
 // markup
