@@ -10,10 +10,6 @@ import campfire from '../../images/campfire.png';
 import crayons from '../../images/crayons.png';
 import hands from '../../images/hands.png';
 
-const spark = 'https://picsum.photos/seed/picsum1/200/300';
-const fire = 'https://picsum.photos/seed/something/200/300';
-const beacon = 'https://picsum.photos/seed/picsum1/200/300';
-
 
 // markup
 const MinistriesPage = () => {
@@ -22,13 +18,13 @@ const MinistriesPage = () => {
         <div className = "ministry_category">
             <h2>Youth/Children</h2>
             <div className={'ministry-category__tiles item-row space-between'}>
-                <MinistryTile image={crayons} name="Spark"  name="Spark" >
+                <MinistryTile image={crayons} name="Spark" name="Spark" attribution="Photo by Anthony from Pexels">
                     Spark is for youth ages 1-9
                 </MinistryTile>
-                <MinistryTile image={campfire} name="Fire" slug="Fire">
+                <MinistryTile image={campfire} name="Fire" slug="Fire" attribution="Photo by Vlad Bagacian from Pexels">
                     Fire is for youth ages 10-13
                 </MinistryTile>
-                <MinistryTile image={lighthouse} name="Beacon" slug="Beacon">
+                <MinistryTile image={lighthouse} name="Beacon" slug="Beacon" attribution="Photo by Erik Mclean from Pexels">
                     Beacon is for youth in JR. and SR. high.
                 </MinistryTile>
             </div>
@@ -36,13 +32,13 @@ const MinistriesPage = () => {
         <div>
             <h2>Encouragement</h2>
             <div className={'ministry-category__tiles item-row space-between'}>
-                <MinistryTile image={hands} name="Prayer" slug="Prayer">
+                <MinistryTile image={hands} name="Prayer" slug="Prayer" attribution="Photo by Dio Hasbi Saniskoro from Pexels">
                     Send us your prayer requests
                 </MinistryTile>
                 <MinistryTile image={river} name="Prophetic" slug="Prophetic">
                     Understanding and responding to the voice of the Lord
                 </MinistryTile>
-                <MinistryTile image={lazarus} name="Lazarus" slug="Lazarus">
+                <MinistryTile image={lazarus} name="Lazarus" slug="Lazarus" attribution="Photo by Piotr Twardowski from Pexels">
                     Specific encouragement for daily life
                 </MinistryTile>
             </div>
