@@ -18,7 +18,7 @@ const MinistriesPage = () => {
         <div className = "ministry_category">
             <h2>Youth/Children</h2>
             <div className={'ministry-category__tiles item-row space-between'}>
-                <MinistryTile image={crayons} name="Spark" name="Spark" attribution="Photo by Anthony from Pexels">
+                <MinistryTile image={crayons} name="Spark" slug="Spark" attribution="Photo by Anthony from Pexels">
                     Spark is for youth ages 1-9
                 </MinistryTile>
                 <MinistryTile image={campfire} name="Fire" slug="Fire" attribution="Photo by Vlad Bagacian from Pexels">

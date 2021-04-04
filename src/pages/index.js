@@ -35,7 +35,7 @@ const IndexPage = () => {
         <div className={'main_blurb-title'}>Kairos Church is located in south Kansas City</div>
         <p className={'main_blurb-text'}>
           We exist to wholeheartedly pursue deep relationship with God the Father
-          through the Spirit of His Son Jesus Christ and to lift stregthen
+          through the Spirit of His Son Jesus Christ and to stregthen
           others as they come into the identiy God has called them to.
         </p>
       <Link className={'main_blurb-link'} to='/about'>Read Our Story</Link>
