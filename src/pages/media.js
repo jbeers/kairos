@@ -21,6 +21,11 @@ const IndexPage = () => {
             <li>Twitter 	<Link to="https://twitter.com/kairoskansascity">https://twitter.com/kairoskansascity</Link></li>
             <li>Instagram <Link to="https://instagrame.com/kairoskansascity">https://instagrame.com/kairoskansascity</Link></li>
         </ul>
+
+        <h3>Other</h3>
+        <ul>
+            <li>Kairos Merch <Link to="https://kairosmerch.com/" >kairosmerch.com</Link></li>
+        </ul>
         
     </PageLayout>
 }
