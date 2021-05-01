@@ -8,7 +8,7 @@ const IndexPage = () => {
         <div>
             <h2>Online</h2>
             <p>
-                Online giving is handled through Aware 3. You can access our giving page at <Link to="https://metrokc.aware3.net/give/" >https://metrokc.aware3.net/give/</Link>.
+                Online giving is handled through Aware 3. You can access our giving page at <Link to="https://kairoschurch.aware3.net/give" >https://kairoschurch.aware3.net/give</Link>.
             </p>
         </div>
         <div>
