@@ -23,7 +23,7 @@ const IndexPage = () => {
         {/* <Slider images={sliderImages } /> */}
       </div>
       <div className="main-tiles">
-        <Link to="/events" className="main-tiles__tile">Upcoming Events</Link>
+        <Link to="https://kairos-kc.churchcenter.com/calendar" className="main-tiles__tile">Upcoming Events</Link>
         <Link to="/welcome" className="main-tiles__tile">Are you new? Welcome! Let us introduce ourselves.</Link>
         <Link to="/prayer" className="main-tiles__tile">Request Prayer</Link>
       <Link to="https://kairosmerch.com/" className="main-tiles__tile">Kairos Merch</Link>
