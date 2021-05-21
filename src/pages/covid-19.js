@@ -7,6 +7,7 @@ const IndexPage = () => {
         <p>
             Kairos is committed to making sure that gather in ways that are safe for the edification of God's people.
         </p>
+        
     </PageLayout>
 }
 export default IndexPage

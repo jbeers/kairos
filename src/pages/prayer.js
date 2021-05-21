@@ -22,7 +22,7 @@ const IndexPage = () => {
                 <textarea className="prayer-form__prayer-request" id="PrayerRequest" name="PrayerRequest" />
             </div>
             <div className="item-row justify-end">
-                <button type='submit'>Submit</button>
+                <button type='submit'><b>Submit</b></button>
             </div>
         </form>
     </PageLayout>

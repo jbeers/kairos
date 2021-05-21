@@ -12,8 +12,8 @@ const IndexPage = () => {
         </p>
         <p>
             Kairos is Greek word that roughly translates as "the right time". It stands in contrast to the word "Chronos" which is any time on the clock. We trust
-            God's faithfulness and timing to bring us through the trials we experience in our lives, out of the sin that tangles us up, and into deeper, fuller
-            knowledge of His love.
+            God's faithfulness and timing to bring us through the trials we experience in our lives, out of the sin that tangles us up, and into deeper, fuller, graeter
+            knowledge and understanding of His love.
         </p>
         <p>
             We believe in God's nearness to us and His constant goodness. We summarize the many ways He leads us in the values of faith, family, and movement.
