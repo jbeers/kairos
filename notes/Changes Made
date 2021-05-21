@@ -1,0 +1,16 @@
+Change Log
+++ means item added  xx item changed corrected or modified  -- item removed 
+## signifies a comment about the change immediately following it
+===========================================================================
+++ added Social Media Section in the footer
+xx corrected the spelling of instagram in the media page
+xx reworded Kairos Merch to Kairos Merchandise
+xx placed a border radius on the input and textarea sections of the prayer request form
+++ added copyright information at the bottom of the footer
+xx palced a border radius around the submit button
+xx resized the submit button to make it more visible
+xx centered copyright info
+xx made text on button element bold
+xx corrected the church name on the "give" page you had it set at the old name
+xx updated links in the privacy policy to include rel="norefferer" as per whatwg standards located at 
+	https://html.spec.whatwg.org/multipage/links.html#link-type-noopener

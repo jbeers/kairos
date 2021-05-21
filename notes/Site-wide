@@ -1,0 +1,47 @@
+Notes about changes that need to be made and when known specific information on how best to correct the issue 
+notation will be made if in the scopew of my changes it has corrected the issue
+
+General
+	change external links frfom the link element to whichever gatsby prefers
+	add a "beliefs" page
+	Every page needs at least one image
+	Pages need basic meta data
+		title
+		keywords (yeh some search engines still use these)
+		description
+	site-map
+		html
+		Google
+		bing
+		yahoo		
+	robots.txt
+	
+Accessibility
+	increase the contrast ratio of the logo and the background colour
+	pages need aria roles
+
+Asthetics
+	>>on forms put in some amount of rounding on the corners (5-10%)
+		
+Footer
+	>>add copyright information
+	>>add social media links	
+	Delete Planning center link
+	include CCB link
+	>>add basic contact info name physical address
+	Use fontawesome to get the logos for the different social media accounts
+	
+Analytics
+	where do I place analytics code in the site
+	
+Prophetic and Lazarus haqve duplicate content
+
+/legal/
+	privacy
+	TOS
+	in some jurisdictions that the site may fall under these links need to be more pronounced than they are i.e. larger font, bold print etc...
+
+shows different content if you visit a ministry from within the ministries page v. through the footer navigation 	
+
+Welcome and about have the same content whereas the welcome page should contain content relevant to what a person should expect on their first visit and links to the about and beliefs pages
+
