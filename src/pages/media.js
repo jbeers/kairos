@@ -19,7 +19,7 @@ const IndexPage = () => {
             <li>Spark & Fire <Link to="https://facebook.com/kairoschurchkids">https://facebook.com/kairoschurchkids</Link></li>
             <li>Beacon 	<Link to="https://facebook.com/beaconyouth">https://facebook.com/beaconyouth</Link></li>
             <li>Twitter 	<Link to="https://twitter.com/kairoskansascity">https://twitter.com/kairoskansascity</Link></li>
-            <li>Instagram <Link to="https://instagrame.com/kairoskansascity">https://instagrame.com/kairoskansascity</Link></li>
+            <li>Instagram <Link to="https://instagram.com/kairoskansascity">https://instagrame.com/kairoskansascity</Link></li>
         </ul>
 
         <h3>Other</h3>

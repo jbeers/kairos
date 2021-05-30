@@ -17,7 +17,8 @@ const IndexPage = () => {
             <div className="contact__info-group">
                 <h3>Sunday Service</h3>
                 9:00 AM Prayer<br />
-                10:00 AM Worship
+                10:00 AM Worship<br />
+                11:00 AM Sermon
             </div>
             <div className="contact__info-group">
                 <h3>Address</h3>

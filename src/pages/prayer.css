@@ -1,3 +1,15 @@
 .prayer-form__prayer-request {
     height: 300px;
 }
+input{
+	border-radius: 10px;
+}
+textarea{
+	border-radius: 20px;
+}
+button{
+	border-radius:10px;
+	height: 40px;
+	width: 75px;
+	font-weight: bold;
+}

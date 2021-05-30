@@ -1,0 +1,76 @@
+  Notes about changes that need to be made and when known specific information on how best to correct the issue 
+  notation will be made if in the scopew of my changes it has corrected the issue
+  --  /404/
+    	#I do like how 404 errors are sent back to ther home page 
+    	for ministries have it go to the home page for ministries
+    	
+  --  /index/
+  	place images for the app different ministries and the logo into the slider and turn the slider back on
+  	
+  --  /about/
+  	include our beliefs or create another page that mentions our beliefs
+  	
+  --  /contact/
+    	is not responsive
+	on contact page under service times include the 11:00 sermon
+	place a contact form for people that would like: 
+		more information about something from either the site or a sermon that they watched online 
+		without them needing to have an e-mail program on the device they are using to accesss the site
+		Don't have an e-mail address(a lot of elderly people don't have one		
+	for the map have a fallback image that can be used if the access to the google maps is for any reason un-available
+	
+ --   /covid-19/
+    there are no links to this page 
+	needs soome text to show what the covid precautions are and how/what we do tyo keep people safe from catching it
+	
+ --   /media/
+ 	change Kairos Merch to Kairos Merchandise
+ 	
+ --   /planningcenter/
+ 	does this really need to be on the public page v. having a person be sent a link to it when they are approved to work in a given ministry as this is only used to coordinate peoples schedules for when they volunteer in a given are(s)
+ 	This should be replaced with CCB as that is the more accurate way in whichg we communicate with the congregation in general
+ 	
+ --   /prayer/
+ 	include the following css rules
+ 		input{
+ 		 	border-radius: 10px;}
+		textarea{
+  			border-radius: 20px;
+}
+ --   /privacy-policy/
+    	CCPA wording
+	Do-Not-Track
+	Do-Not-Sell
+	include mailing address and contaact form as a methods of inquiry about the privacy policy
+	Make the Email address a link
+	
+ xx   /welcome/
+ xx   /ministries/CoffeeShop/
+ 
+ --   /ministries/Beacon/
+    	shows the home page
+    	
+  --  /ministries/Fire/
+    	needs an image
+    	
+  --  /ministries/Spark/
+  --  /ministries/Lazarus/   
+  --  /ministries/Prophetic/
+  	have this page mention "Teaching people how to understand and respond to the voice of the Lord" v. "understanding and responding to the voice of the Lord"
+    	shows home page
+    	
+  --  /ministries/HopeRocks/
+    	include an image
+	include hours	
+	Better text to explain Hope Rocks other than just syaing that it is a food pantry
+	
+ --  /ministries/Helps/
+    	shows the Spark page
+    	
+ --  /ministries/Prayer/	 
+   	include rounded corners on all input fields	
+   	
+ xx   /ministries/
+ xx   /events/
+ xx   /give/
+   /404.html

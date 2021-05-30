@@ -1,0 +1,9 @@
+why can't all of the css pages be combined into just the one file instead of waiting and having gatsby compile them together ? doesn't that break some of the principles behind CSS?
+    
+how do you modify what port gatsby is using
+
+how do you modify what port node is using 
+    
+where do I place analytics code in the site
+
+
