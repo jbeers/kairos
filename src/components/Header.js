@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from '../images/horz_logo.png';
 import './Header.css';
 import { Link } from 'gatsby';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaFacebookF, FaVimeoV, FaInstagram } from 'react-icons/fa';
 
 export const Header = () => {
     const [ showMenu, setShowMenu ] = useState( false );
@@ -43,6 +43,11 @@ export const Header = () => {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
         </ul>
+        <span className="header__social-icons">
+            <a href="https://www.facebook.com/kairoskansascity/"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/kairoskansascity/?hl=en"><FaInstagram /></a>
+            <a href="https://vimeo.com/kairoskc"><FaVimeoV /></a>
+        </span>
         <span className="header__menu-icon">
             <FaBars onClick = { handleMenuClick }/>
         </span>
@@ -56,6 +61,11 @@ export const Header = () => {
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
+                    <span className="header__social-icons--mobile">
+                        <a href="https://www.facebook.com/kairoskansascity/"><FaFacebookF /></a>
+                        <a href="https://www.instagram.com/kairoskansascity/?hl=en"><FaInstagram /></a>
+                        <a href="https://vimeo.com/kairoskc"><FaVimeoV /></a>
+                    </span>
                 </div>
         }
     </header>

@@ -2,6 +2,7 @@ import React from 'react';
 import horz_white from '../images/horz_white.png';
 import { Link } from 'gatsby';
 import './Footer.css';
+import { FaFacebookF, FaVimeoV, FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
     return <div className="footer">
@@ -36,6 +37,15 @@ export const Footer = () => {
                         <Link className="footer__link" to='/prayer'>Prayer</Link>
                         <Link className="footer__link" to='/media'>Media</Link>
                         <Link className="footer__link" to='/give'>Give</Link>
+                    </ul>
+                </div>
+                <div style={{flex:1}} />
+                <div className="footer__link-group footer__link-group--side">
+                    <h3 className="footer__link-list-label">Social Media</h3>
+                    <ul className="footer__link-list footer__link-list--icons">
+                        <a href="https://www.facebook.com/kairoskansascity/"><FaFacebookF /></a>
+                        <a href="https://www.instagram.com/kairoskansascity/?hl=en"><FaInstagram /></a>
+                        <a href="https://vimeo.com/kairoskc"><FaVimeoV /></a>
                     </ul>
                 </div>
             </div>

@@ -79,6 +79,26 @@
     cursor: pointer;
 }
 
+.header__social-icons {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    display: flex;
+}
+
+.header__social-icons > * {
+    margin-left: 10px;
+}
+
+.header__social-icons a,
+.header__social-icons a:visited {
+    color:rgba( 200, 200, 200, .85 );
+}
+
+.header__social-icons a:hover {
+    color: white;
+}
+
 :root {
     --blue: #217786;
     --orange: #c19763;
@@ -130,5 +150,21 @@ body {
         color: white;
         padding-right: 10px;
         cursor: pointer;
+    }
+
+    .header__social-icons {
+        display: none;
+    }
+
+    .header__social-icons--mobile {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+    }
+
+    .header__social-icons--mobile > * {
+        font-size: 2rem;
+        margin-right: 40px;
+        color: black;
     }
 }
