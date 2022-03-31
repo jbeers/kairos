@@ -17,6 +17,15 @@
     justify-content: center;
 }
 
+
+.contact__times-list .contact__times-label {
+    padding-right: 20px;
+}
+
+.contact__times-list .contact__times-time {
+    text-align: right;
+}
+
 @media only screen and ( max-width: 600px ){
 
     .contact__info {
