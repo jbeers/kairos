@@ -1,5 +1,5 @@
-import * as React from "react"
 import { Link } from 'gatsby';
+import * as React from "react";
 import { PageLayout } from '../layouts';
 
 const IndexPage = () => {
@@ -15,7 +15,7 @@ const IndexPage = () => {
             <h2>By Check</h2>
             <p>To give by check please make the check out to "Kairos Church KC" and include the purpose of your gift in the memo line. Please mail the check to:</p>
             <center>
-                Metro Christian Fellowship<br />
+                Karios Church<br />
                 2217 High Grove Rd<br />
                 Grandview, MO 64030
             </center>
