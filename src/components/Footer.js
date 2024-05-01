@@ -1,14 +1,14 @@
-import React from 'react';
-import horz_white from '../images/horz_white.png';
 import { Link } from 'gatsby';
+import React from 'react';
+import { FaFacebookF, FaInstagram, FaVimeoV } from 'react-icons/fa';
+import horz_white from '../images/horz_white.png';
 import './Footer.css';
-import { FaFacebookF, FaVimeoV, FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
     return <div className="footer">
-        <div className = 'footer-content'>
+        <div className='footer-content'>
             <div className="footer__salutations">
-                <Link to="/"><img className="header__logo" src={horz_white} alt="Kairos Church Logo"/></Link>
+                <Link to="/"><img className="header__logo" src={horz_white} alt="Kairos Church Logo" /></Link>
             </div>
             <div className="footer__content">
                 <div className="footer__link-group">
@@ -16,18 +16,17 @@ export const Footer = () => {
                     <ul className="footer__link-list">
                         <Link className="footer__link" to='/'>Home</Link>
                         <Link className="footer__link" to='/about'>About</Link>
-                        <Link className="footer__link" to='/events'>Upcoming Events</Link>
-                        <Link className="footer__link" to='/planningcenter'>Planning Center</Link>
+                        <a className="footer__link" href="https://kairos-kc.churchcenter.com/calendar?view=list">Upcoming Events</a>
                         <Link className="footer__link" to='/privacy-policy'>Privacy Policy</Link>
                     </ul>
                 </div>
                 <div className="footer__link-group">
                     <h3 className="footer__link-list-label">Ministries</h3>
                     <ul className="footer__link-list">
-                        <Link className="footer__link" to='/ministries/spark'>Spark</Link>
-                        <Link className="footer__link" to='/ministries/beacon'>Beacon</Link>
-                        <Link className="footer__link" to='/ministries/prophetic'>Prophetic</Link>
-                        <Link className="footer__link" to='/ministries/hoperocks'>Hope Rocks</Link>
+                        <Link className="footer__link" to='/ministries/Spark'>Spark</Link>
+                        <Link className="footer__link" to='/ministries/Beacon'>Beacon</Link>
+                        <Link className="footer__link" to='/ministries/Prophetic'>Prophetic</Link>
+                        <Link className="footer__link" to='/ministries/Hoperocks'>Hope Rocks</Link>
                     </ul>
                 </div>
                 <div className="footer__link-group">
@@ -39,7 +38,7 @@ export const Footer = () => {
                         <Link className="footer__link" to='/give'>Give</Link>
                     </ul>
                 </div>
-                <div style={{flex:1}} />
+                <div style={{ flex: 1 }} />
                 <div className="footer__link-group footer__link-group--side">
                     <h3 className="footer__link-list-label">Social Media</h3>
                     <ul className="footer__link-list footer__link-list--icons">
