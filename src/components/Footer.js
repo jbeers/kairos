@@ -26,7 +26,7 @@ export const Footer = () => {
                         <Link className="footer__link" to='/ministries/Spark'>Spark</Link>
                         <Link className="footer__link" to='/ministries/Beacon'>Beacon</Link>
                         <Link className="footer__link" to='/ministries/Prophetic'>Prophetic</Link>
-                        <Link className="footer__link" to='/ministries/Hoperocks'>Hope Rocks</Link>
+                        <Link className="footer__link" to='/ministries/HopeRocks'>Hope Rocks</Link>
                     </ul>
                 </div>
                 <div className="footer__link-group">
