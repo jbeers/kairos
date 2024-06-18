@@ -17,6 +17,7 @@ export const Footer = () => {
                         <Link className="footer__link" to='/'>Home</Link>
                         <Link className="footer__link" to='/about'>About</Link>
                         <a className="footer__link" href="https://kairos-kc.churchcenter.com/calendar?view=list">Upcoming Events</a>
+                        <Link className="footer__link" to='/statement-of-faith'>Statement of Faith</Link>
                         <Link className="footer__link" to='/privacy-policy'>Privacy Policy</Link>
                     </ul>
                 </div>
